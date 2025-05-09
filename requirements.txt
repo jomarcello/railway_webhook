@@ -1,5 +1,7 @@
-Flask==2.3.3
-requests==2.31.0
+flask==2.3.3
 python-dotenv==1.0.0
-Werkzeug==2.3.7
-gunicorn==21.2.0 
+requests==2.31.0
+plyer==2.1.0
+gunicorn==21.2.0
+werkzeug==2.3.7
+pyngrok==6.0.0 
