@@ -1,0 +1,16 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "python webhook_server.py"
+healthcheckPath = "/health"
+healthcheckTimeout = 300
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+[nixpacks]
+python-version = "3.10"
+
+[variables]
+PORT = "8080"
+PYTHONUNBUFFERED = "1" 
