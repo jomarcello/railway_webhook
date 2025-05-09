@@ -18,7 +18,6 @@ import requests
 from datetime import datetime
 
 # Importeer de Cursor Bridge functionaliteit
-from cursor_bridge_enhanced import fetch_deployment_logs, extract_errors_from_logs, create_prompt_file, launch_cursor_with_prompt
 
 # Laad environment variabelen
 load_dotenv()
